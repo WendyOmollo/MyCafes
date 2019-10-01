@@ -6,11 +6,15 @@
         android:id="@+id/findRestaurantsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/locationEditText"
         android:background="@color/colorTextIcons"
         android:padding="7dp"
+        android:paddingTop="48dp"
         android:text="Find Restaurants"
-        android:textColor="@color/colorPrimaryText" />
+        android:textColor="@color/colorPrimaryText"
+
+        />
 
 
     <ImageView
@@ -18,20 +22,36 @@
         android:layout_height="fill_parent"
         android:id="@+id/imageView"
         android:src="@drawable/cook"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        />
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Wendy's Restaurants"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="35dp"
-    android:textColorLink="#00A33434"
-    android:textSize="40sp"
-    android:textColor="@color/colorTextIcons"
-    android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wendy's Restaurants"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColorLink="#00A33434"
+        android:textSize="40sp"
+        android:textColor="@color/colorTextIcons"
+        android:textStyle="bold"
+            />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@id/textView"
+        android:layout_marginBottom ="10dp"
+        android:padding="7dp"
+        android:hint="Enter Zip Code"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         />
+
 
 </RelativeLayout>
 
