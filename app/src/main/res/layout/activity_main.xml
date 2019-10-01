@@ -2,24 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/findRestaurantsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorTextIcons"
+        android:padding="7dp"
+        android:text="Find Restaurants"
+        android:textColor="@color/colorPrimaryText" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/cook"
+        android:scaleType="centerCrop" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:text="My Restaurants"
-        android:textColorLink="#00A33434"
-        android:textSize="24sp" />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Wendy's Restaurants"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="35dp"
+    android:textColorLink="#00A33434"
+    android:textSize="40sp"
+    android:textColor="@color/colorTextIcons"
+    android:textStyle="bold"
+        />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="Find Restaurants" />
 </RelativeLayout>
 
