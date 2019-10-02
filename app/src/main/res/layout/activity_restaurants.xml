@@ -8,7 +8,6 @@
         android:id="@+id/locationTextView"
         android:text="Restaurants Near"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         />
 
     <ListView
@@ -19,5 +18,7 @@
         android:layout_alignRight="@id/listView"
         android:layout_alignEnd="@id/listView"
     />
+
+
 
 </RelativeLayout>

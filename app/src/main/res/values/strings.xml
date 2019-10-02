@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">My Restaurants</string>
+
+<!--        <string-array name="restaurants">-->
+<!--            <item>Mi Mero Mole</item>-->
+<!--            <item>Mothers Bistro</item>-->
+<!--            <item>Life of Pie</item>-->
+<!--            <item>Screen Door</item>-->
+<!--            <item>Luc Lac</item>-->
+<!--            <item>Sweet Basil</item>-->
+<!--            <item>Slappy Cakes</item>-->
+<!--            <item>Equinox</item>-->
+<!--            <item>Miss Delta</item>-->
+<!--            <item>Andina</item>-->
+<!--            <item>Lardo</item>-->
+<!--            <item>Portland City Grill</item>-->
+<!--            <item>Fat Heads Brewery</item>-->
+<!--            <item>Chipotle</item>-->
+<!--            <item>Subway</item>-->
+<!--        </string-array>-->
+
 </resources>
