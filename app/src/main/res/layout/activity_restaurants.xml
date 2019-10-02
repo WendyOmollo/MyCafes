@@ -7,9 +7,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/locationTextView"
         android:text="Restaurants Near"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:layout_above="@id/listView"
         />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@id/locationTextView"
+        android:layout_alignRight="@id/listView"
+        android:layout_alignEnd="@id/listView"
+    />
 
 </RelativeLayout>
