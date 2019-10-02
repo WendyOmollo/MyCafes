@@ -20,6 +20,6 @@ public class RestaurantsActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
-         mLocationTextView.setText("Here are all the Restaurants near: " + location);
+         mLocationTextView.setText("Here are all the restaurants near: " + location);
     }
 }
