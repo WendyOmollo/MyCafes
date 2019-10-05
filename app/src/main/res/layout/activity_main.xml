@@ -13,7 +13,6 @@
         android:paddingTop="48dp"
         android:text="Find Restaurants"
         android:textColor="@color/colorPrimaryText"
-
         />
 
 
